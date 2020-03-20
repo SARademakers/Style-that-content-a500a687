@@ -1,5 +1,35 @@
-.navbar {
-display: flex;
-justify-content: space-around;
-background-color: green;
+div.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+}
+
+h1 {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+
+h1+p {
+    position: absolute;
+    top: 25%;
+}
+
+div#breaking {
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    left: 65%;
+}
+
+.news {
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+body > div.content > div:nth-child(3){
+    left: 15%;
 }
